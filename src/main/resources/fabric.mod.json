@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "lockdown",
+  "version": "${version}",
+  "name": "Lockdown",
+  "description": "Locks one more inventory slot every interval until all 37 are gone.",
+  "environment": "*",
+  "mixins": [
+    "lockdown.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "1.16.1",
+    "java": ">=8"
+  }
+}

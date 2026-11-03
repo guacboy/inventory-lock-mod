@@ -83,4 +83,3 @@ git config core.hooksPath .githooks
   1.16.1 also stops the slot (and the overlay) from being drawn.
 - Some creative and pick block paths write to a slot directly on the client. The server
   enforcer moves such items out on the next tick.
-# inventory-lock-mod
